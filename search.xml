@@ -5,8 +5,8 @@
     
     <entry>
       <title>租GPU训练模型</title>
-      <link href="/article/5ef9795f.html"/>
-      <url>/article/5ef9795f.html</url>
+      <link href="/article/bf51ef33.html"/>
+      <url>/article/bf51ef33.html</url>
       
         <content type="html"><![CDATA[<p>租GPU训练模型。</p><p>内蒙A区 &#x2F; 741机</p><p>首先创建 安装tensorflow框架的示例，</p><p>然后安装所需的库，强烈建议按照次序安装。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pip install numpy</span><br><span class="line">pip install pandas</span><br><span class="line">pip install scipy</span><br><span class="line">pip install matplotlib</span><br><span class="line">pip install scikit-learn</span><br></pre></td></tr></table></figure><p>所需的文件：<br><img src="https://cdn.jsdelivr.net/gh/misdazzling/photobed1@main/img/image-20230519110553230.png" alt="image-20230519110553230"></p><p>我们这里的网络的模型是400个节点。</p><p>首选运行data_pro.ipynb处理1001-1400.csv这个文件得到网络流量阈值.csv。</p><p>然后运行main.ipynb这个文件。训练参数如下图所示：</p><p><img src="https://cdn.jsdelivr.net/gh/misdazzling/photobed1@main/img/image-20230519110740197.png" alt="image-20230519110740197"></p><p>训练过程图：</p><p><img src="https://cdn.jsdelivr.net/gh/misdazzling/photobed1@main/img/image-20230519105945542.png" alt="image-20230519105945542"></p><p>训练1000轮次之后的评价指标：</p><p><img src="https://cdn.jsdelivr.net/gh/misdazzling/photobed1@main/img/image-20230519110021440.png" alt="image-20230519110021440"></p>]]></content>
       
